@@ -10,7 +10,7 @@ namespace BoxingWeights
             {
                 return "Strawweight and " + type;
             }
-            else if (weightInPounds > 105 && weightInPounds <= 108)
+            else if (weightInPounds > 105 && weightInPounds <= 108)    
             {
                 return "JuniorFlyweight and " + type;
             }
