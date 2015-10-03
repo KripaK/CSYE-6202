@@ -16,7 +16,7 @@ namespace GasPump
         static void Main(string[] args)
         {
             // your implementation here
-            String choice1, choice2;
+            String choice1, choice2
             bool status=false, validGas=false, validAmount;
             double totalCost=0.0;
             GasType gasType = GasType.None;
