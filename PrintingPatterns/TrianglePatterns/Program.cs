@@ -62,7 +62,7 @@ namespace TrianglePatterns
 		static void DisplayPatternD()
 		{
             // your implementation here
-            int space = 9;
+            int space = 9;  
             for (int i = 1; i <= 10; i++)
             {
                 for (int k = space; k > 0; k--)
