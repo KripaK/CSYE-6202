@@ -3,7 +3,7 @@ namespace BoxingWeights
 {
 	public class BoxingWeightClassifier
 	{
-        public string ClassifyBoxingWeight(int weightInPounds)
+        public string ClassifyBoxingWeight(int weightInPounds)   
         {
             string type = "Heavyweight";
             if (weightInPounds <= 105)
