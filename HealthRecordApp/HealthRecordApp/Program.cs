@@ -61,7 +61,7 @@
             //height = System.Convert.ToInt32(dummy1);
             status = HealthProfileHelper.ValidateHeight(dummy1, ref ht);
             if (status == false)
-            {
+            { 
                 System.Console.WriteLine("Invalid height");
                 goto HEIGHT;
             }
