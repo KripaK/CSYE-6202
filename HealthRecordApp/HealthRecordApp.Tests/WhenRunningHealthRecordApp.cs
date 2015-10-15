@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-
+using HealthRecordApp;
 namespace HealthRecordApp.Tests
 {
 	[TestFixture]
