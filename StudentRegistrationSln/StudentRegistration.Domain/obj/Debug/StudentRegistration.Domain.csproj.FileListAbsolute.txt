@@ -1,5 +1,0 @@
-D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.Domain\bin\Debug\StudentRegistration.Domain.dll
-D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.Domain\bin\Debug\StudentRegistration.Domain.pdb
-D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.Domain\obj\Debug\StudentRegistration.Domain.csprojResolveAssemblyReference.cache
-D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.Domain\obj\Debug\StudentRegistration.Domain.dll
-D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.Domain\obj\Debug\StudentRegistration.Domain.pdb
