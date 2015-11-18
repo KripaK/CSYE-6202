@@ -1,2 +1,2 @@
-# CSYE-6202
-Repository for CSYE 6202 coursework
+# CSYE-6202-CodeSnippets
+Code snippets from the class
