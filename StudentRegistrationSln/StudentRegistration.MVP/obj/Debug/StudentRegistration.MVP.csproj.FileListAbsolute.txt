@@ -1,0 +1,9 @@
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\bin\Debug\StudentRegistration.MVP.dll
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\bin\Debug\StudentRegistration.MVP.pdb
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\bin\Debug\StudentRegistration.Domain.dll
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\bin\Debug\StudentRegistration.Domain.pdb
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.StudentRegistrationForm.resources
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.csproj.GenerateResource.Cache
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.dll
+D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.pdb
