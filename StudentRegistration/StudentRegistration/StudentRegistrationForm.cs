@@ -46,7 +46,7 @@ namespace StudentRegistration
 
             // dirty workaround to make sure that we can bind to the static mock list
             var bindingList = new BindingList<Student>(mockStudentList);
-            var source = new BindingSource(bindingList, null);
+            var source = new BindingSource(bindingList, null); 
             dataGridViewStudents.DataSource = source;
         }
 
