@@ -10,3 +10,4 @@ D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistrationApp\o
 D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistrationApp\obj\Debug\StudentRegistration.App.csproj.GenerateResource.Cache
 D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistrationApp\obj\Debug\StudentRegistration.App.exe
 D:\NEU\CSYE 6202\Spikes\WinForms\StudentRegistrationSln\StudentRegistrationApp\obj\Debug\StudentRegistration.App.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\StudentRegistrationSln\StudentRegistrationApp\bin\Debug\StudentRegistration.App.exe.config
