@@ -13,12 +13,14 @@ namespace StudentRegistration
     public partial class StudentRegistrationForm : Form
     {
         private List<Student> mockStudentList;
+        //private StudentList student = new StudentList();
         public StudentRegistrationForm(List<Student> mockStudentList)
         {
             InitializeComponent();
+            this.mockStudentList = mockStudentList;
             Init();
 
-            this.mockStudentList = mockStudentList;
+            
         }
 
         private void Init()
@@ -43,6 +45,8 @@ namespace StudentRegistration
             //    new Student("111-11-1212", "Bart", "Simpson", "Information Systems", "Full Time"),
             //    new Student("123-12-1234", "Maggie", "Simpson", "International Affairs", "Part Time"),
             //};
+            //mockStudentList.Add(new Student("111-11-1212", "Bart", "Simpson", "Information Systems", "Full Time"));
+            //mockStudentList.Add(new Student("123-12-1234", "Maggie", "Simpson", "International Affairs", "Part Time"));
 
             // dirty workaround to make sure that we can bind to the static mock list
             var bindingList = new BindingList<Student>(mockStudentList);

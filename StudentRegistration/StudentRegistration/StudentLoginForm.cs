@@ -12,25 +12,26 @@ namespace StudentRegistration
 {
     public partial class StudentLoginForm : Form
     {
-        
-        public StudentLoginForm()
+        List<Student> mockStudentList;
+        public StudentLoginForm(List<Student> mockStudentList)
         {
             InitializeComponent();
+            this.mockStudentList = mockStudentList;
         }
 
         private void signButton_Click(object sender, EventArgs e)
         {
             string text = textBox.Text;
             string pass = passBox.Text;
-            MainWindow obj = new MainWindow();
-            StudentLoginForm form = new StudentLoginForm();
+            //   MainWindow obj = new MainWindow(mockStudentList);
+            StudentRegistrationForm form = new StudentRegistrationForm(mockStudentList);
             if (string.IsNullOrEmpty(text) || string.IsNullOrWhiteSpace(text))
             {
-                form.Show();
+                MessageBox.Show("Invalid username or password");
             }
             if (string.Compare(text, "demouser") == 0 && string.Compare(pass, "demouser") == 0)
             {
-                obj.Show();
+                form.Show();
             }
             else
             {

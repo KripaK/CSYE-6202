@@ -30,33 +30,33 @@ namespace StudentRegistration
             lastName = lastText.Text;
             nuid = studentText.Text;
             dept = comboBoxDepartment.SelectedItem.ToString();
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
-            {
-                StudentRegistrationWarning popup = new StudentRegistrationWarning();
-                DialogResult dialogresult = popup.ShowDialog();
-                if (dialogresult == DialogResult.OK)
-                {
-                    popup.Close();
-                }
-                popup.Dispose();
-            }
-            else
-            {
-                StudentRegistrationWarning popup = new StudentRegistrationWarning();
-                DialogResult dialogresult = popup.ShowDialog();
-                if (dialogresult == DialogResult.Yes)
-                {
+            //if (string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
+            //{
+            //    StudentRegistrationWarning popup = new StudentRegistrationWarning();
+            //    DialogResult dialogresult = popup.ShowDialog();
+            //    if (dialogresult == DialogResult.OK)
+            //    {
+            //        popup.Close();
+            //    }
+            //    popup.Dispose();
+            //}
+            //else
+            //{
+                //StudentRegistrationWarning popup = new StudentRegistrationWarning();
+                //DialogResult dialogresult = popup.ShowDialog();
+                //if (dialogresult == DialogResult.Yes)
+                //{
 
                     int index = mockStudentList.FindIndex(s => s.StudentID == nuid);
                     mockStudentList.RemoveAt(index);
-                    popup.Dispose();
-                }
-                else
-                {
-                    popup.Dispose();
-                    this.Close();
-                }
-            }
+                  //  popup.Dispose();
+               // }
+                //else
+                //{
+                //    popup.Dispose();
+                //    this.Close();
+                //}
+           // }
             
         }
 

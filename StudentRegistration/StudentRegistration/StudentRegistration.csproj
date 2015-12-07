@@ -82,6 +82,7 @@
       <DependentUpon>RemoveStudentRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Student.cs" />
+    <Compile Include="StudentList.cs" />
     <Compile Include="StudentLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

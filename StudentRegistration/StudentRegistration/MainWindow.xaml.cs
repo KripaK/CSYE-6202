@@ -25,9 +25,12 @@ namespace StudentRegistration
                 new Student("111-11-1212", "Bart", "Simpson", "Information Systems", "Full Time"),
                 new Student("123-12-1234", "Maggie", "Simpson", "International Affairs", "Part Time"),
             };
+        //List<Student> mockStudentList = new List<Student>();
+
         public MainWindow()
         {
             InitializeComponent();
+            //this.mockStudentList = mockStudentList;
         }
 
         private void signButton_Click(object sender, EventArgs e)
@@ -35,7 +38,7 @@ namespace StudentRegistration
             //string text = textBox.Text;
             //string pass = passwordBox.Password;
             //MainWindow obj = new MainWindow();
-            StudentRegistrationForm form = new StudentRegistrationForm(mockStudentList);
+            //StudentRegistrationForm form = new StudentRegistrationForm();
             //if (string.IsNullOrEmpty(text) || string.IsNullOrWhiteSpace(text))
             //{
             //    obj.Show();
@@ -46,7 +49,7 @@ namespace StudentRegistration
             //}
             //else
             //{
-            form.Show();
+            //form.Show();
             //}
         }
 

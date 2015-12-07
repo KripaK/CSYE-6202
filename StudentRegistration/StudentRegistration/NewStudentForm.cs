@@ -69,19 +69,19 @@ namespace StudentRegistration
 
         private void loadData()
         {
-            firstName = firstText.Text;
-            lastName = lastText.Text;
-            nuid = studentText.Text;
-            if(string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
-            {
-                StudentRegistrationWarning popup = new StudentRegistrationWarning();
-                DialogResult dialogresult = popup.ShowDialog();
-                if (dialogresult == DialogResult.OK)
-                {
-                    popup.Close();
-                }
-                popup.Dispose();
-            }
+            firstName = "bags";
+            lastName = "hamsa";
+            nuid = "111-233-545";
+            //if(string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
+            //{
+            //    StudentRegistrationWarning popup = new StudentRegistrationWarning();
+            //    DialogResult dialogresult = popup.ShowDialog();
+            //    if (dialogresult == DialogResult.OK)
+            //    {
+            //        popup.Close();
+            //    }
+            //    popup.Dispose();
+            //}
             dept = comboBoxDepartment.SelectedItem.ToString();
             if (radioButtonFullTime.Checked == true)
             {
@@ -93,6 +93,8 @@ namespace StudentRegistration
             }
             Student student = new Student(nuid, firstName, lastName, dept, enrollType);
             mockStudentList.Add(student);
+            //mockStudentList = new List<Student>() { (new Student(nuid, firstName, lastName, dept, enrollType)) };
+
         }
 
 
