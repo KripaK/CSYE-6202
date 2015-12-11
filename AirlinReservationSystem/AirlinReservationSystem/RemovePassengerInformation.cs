@@ -19,7 +19,7 @@ namespace AirlinReservationSystem
         {
             InitializeComponent();
             this.flight = flight;
-            populatTable();
+          //  populatTable();
         }
 
         private void RemovePassengerInformation_Load(object sender, EventArgs e)
@@ -39,8 +39,8 @@ namespace AirlinReservationSystem
             SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
             DataSet ds = new DataSet();
             dataAdapter.Fill(ds);
-            fullDataGrid.ReadOnly = true;
-            fullDataGrid.DataSource = ds.Tables[0];
+          //  fullDataGrid.ReadOnly = true;
+            //fullDataGrid.DataSource = ds.Tables[0];
         }
 
         private void fullDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -82,6 +82,7 @@ namespace AirlinReservationSystem
         {
             FlightListView form = new FlightListView();
             form.Show();
+            this.Hide();
         }
     }
 }

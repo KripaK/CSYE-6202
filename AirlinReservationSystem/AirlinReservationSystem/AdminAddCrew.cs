@@ -59,6 +59,7 @@ namespace AirlinReservationSystem
         {
             AdminFlightModification form = new AdminFlightModification();
             form.Show();
+            this.Hide();
         }
     }
 }

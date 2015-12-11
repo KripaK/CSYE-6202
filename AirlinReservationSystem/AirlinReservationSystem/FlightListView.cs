@@ -23,6 +23,7 @@ namespace AirlinReservationSystem
         {
             Form1 form = new Form1();
             form.Show();
+            this.Hide();
         }
         private void populatTable()
         {
@@ -48,6 +49,7 @@ namespace AirlinReservationSystem
 
             AddFlight form = new AddFlight(flight);
             form.Show();
+            this.Hide();
         }
 
         private void FlightListView_Load(object sender, EventArgs e)

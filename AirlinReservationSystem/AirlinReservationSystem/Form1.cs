@@ -50,11 +50,13 @@ namespace AirlinReservationSystem
                 {
                     AdminFlow form = new AdminFlow();
                     form.Show();
+                    this.Hide();
                 }
                 else
                 {
                     FlightListView form = new FlightListView();
                     form.Show();
+                    this.Hide();
                 }
                 MessageBox.Show("username and password is correct");
 
@@ -98,6 +100,7 @@ namespace AirlinReservationSystem
         {
             UserRegistration form = new UserRegistration();
             form.Show();
+            this.Hide();
         }
     }
 }

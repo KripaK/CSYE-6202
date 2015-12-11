@@ -26,12 +26,14 @@ namespace AirlinReservationSystem
         {
             FlightListView form = new FlightListView();
             form.Show();
+            this.Hide();
         }
 
         private void adminButton_Click(object sender, EventArgs e)
         {
             AdminFlightModification form = new AdminFlightModification();
             form.Show();
+            this.Hide();
         }
     }
 }

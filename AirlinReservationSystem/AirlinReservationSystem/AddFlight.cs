@@ -66,6 +66,7 @@ namespace AirlinReservationSystem
         {
             AddPassengerInformation form = new AddPassengerInformation(flightName);
             form.Show();
+            this.Hide();
         }
 
         private void flightDataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -87,12 +88,14 @@ namespace AirlinReservationSystem
         {
             RemovePassengerInformation form = new RemovePassengerInformation(flightName);
             form.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             FlightListView form = new FlightListView();
             form.Show();
+            this.Hide();
         }
     }
 }

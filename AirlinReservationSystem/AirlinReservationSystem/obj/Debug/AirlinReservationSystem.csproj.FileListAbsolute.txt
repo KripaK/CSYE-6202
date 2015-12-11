@@ -16,3 +16,21 @@ c:\users\kripa.kalyanraman\documents\visual studio 2015\Projects\AirlinReservati
 c:\users\kripa.kalyanraman\documents\visual studio 2015\Projects\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminFlightModification.resources
 c:\users\kripa.kalyanraman\documents\visual studio 2015\Projects\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminFlow.resources
 c:\users\kripa.kalyanraman\documents\visual studio 2015\Projects\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.UserRegistration.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\bin\Debug\AirlinReservationSystem.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.csprojResolveAssemblyReference.cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AddFlight.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AddPassengerInformation.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminAddCrew.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminFlightAdd.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminFlightModification.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.AdminFlow.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.FlightListView.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.Form1.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.Properties.Resources.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.RemovePassengerInformation.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.UserRegistration.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\obj\Debug\AirlinReservationSystem.csproj.GenerateResource.Cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\bin\Debug\AirlinReservationSystem.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\AirlinReservationSystem\AirlinReservationSystem\bin\Debug\AirlinReservationSystem.pdb

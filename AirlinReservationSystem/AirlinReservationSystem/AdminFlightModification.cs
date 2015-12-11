@@ -25,6 +25,7 @@ namespace AirlinReservationSystem
         {
             AdminFlightAdd form = new AdminFlightAdd();
             form.Show();
+            this.Hide();
         }
 
         private void AdminFlightModification_Load(object sender, EventArgs e)
@@ -119,12 +120,14 @@ namespace AirlinReservationSystem
         {
             AdminAddCrew form = new AdminAddCrew(flight_name);
             form.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             AdminFlow form = new AdminFlow();
             form.Show();
+            this.Hide();
         }
     }
 }

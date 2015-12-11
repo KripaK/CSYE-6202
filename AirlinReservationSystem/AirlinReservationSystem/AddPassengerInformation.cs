@@ -66,6 +66,7 @@ namespace AirlinReservationSystem
         {
             FlightListView form = new FlightListView();
             form.Show();
+            this.Hide();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -87,6 +88,7 @@ namespace AirlinReservationSystem
            
                 FlightListView form = new FlightListView();
                 form.Show();
+                this.Hide();
             }
         }
     }
