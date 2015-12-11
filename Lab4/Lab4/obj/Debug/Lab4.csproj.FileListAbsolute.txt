@@ -1,0 +1,5 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\Lab4\Lab4\obj\Debug\Lab4.pdb

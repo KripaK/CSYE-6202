@@ -1,0 +1,5 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\HealthRecordApp\HealthRecordApp\bin\Debug\HealthRecordApp.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\HealthRecordApp\HealthRecordApp\bin\Debug\HealthRecordApp.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\HealthRecordApp\HealthRecordApp\bin\Debug\HealthRecordApp.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\HealthRecordApp\HealthRecordApp\obj\Debug\HealthRecordApp.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\HealthRecordApp\HealthRecordApp\obj\Debug\HealthRecordApp.pdb

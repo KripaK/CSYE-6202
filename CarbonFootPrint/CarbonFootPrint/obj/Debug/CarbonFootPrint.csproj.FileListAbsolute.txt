@@ -1,0 +1,6 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\bin\Debug\CarbonFootPrint.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\bin\Debug\CarbonFootPrint.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\bin\Debug\CarbonFootPrint.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\obj\Debug\CarbonFootPrint.csprojResolveAssemblyReference.cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\obj\Debug\CarbonFootPrint.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\CarbonFootPrint\CarbonFootPrint\obj\Debug\CarbonFootPrint.pdb

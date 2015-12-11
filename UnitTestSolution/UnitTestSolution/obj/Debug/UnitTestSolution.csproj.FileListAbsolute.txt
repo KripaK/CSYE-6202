@@ -1,0 +1,5 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\UnitTestSolution\UnitTestSolution\bin\Debug\UnitTestSolution.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\UnitTestSolution\UnitTestSolution\bin\Debug\UnitTestSolution.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\UnitTestSolution\UnitTestSolution\bin\Debug\UnitTestSolution.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\UnitTestSolution\UnitTestSolution\obj\Debug\UnitTestSolution.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\UnitTestSolution\UnitTestSolution\obj\Debug\UnitTestSolution.pdb

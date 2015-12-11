@@ -1,0 +1,6 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\bin\Debug\GasPump.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\bin\Debug\GasPump.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\bin\Debug\GasPump.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\obj\Debug\GasPump.csprojResolveAssemblyReference.cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\obj\Debug\GasPump.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\GasPump\GasPump\obj\Debug\GasPump.pdb

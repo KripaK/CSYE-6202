@@ -1,0 +1,9 @@
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\bin\Debug\lab 5.exe.config
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\bin\Debug\lab 5.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\bin\Debug\lab 5.pdb
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab 5.csprojResolveAssemblyReference.cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab_5.Form1.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab_5.Properties.Resources.resources
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab 5.csproj.GenerateResource.Cache
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab 5.exe
+C:\Users\kripa.kalyanraman\Source\Repos\CSYE-62026\lab 5\lab 5\obj\Debug\lab 5.pdb
