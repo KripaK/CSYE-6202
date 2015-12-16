@@ -42,13 +42,36 @@ namespace StudentRegistration
             //}
             //else
             //{
-                //StudentRegistrationWarning popup = new StudentRegistrationWarning();
-                //DialogResult dialogresult = popup.ShowDialog();
-                //if (dialogresult == DialogResult.Yes)
-                //{
-
+            //StudentRegistrationWarning popup = new StudentRegistrationWarning();
+            //DialogResult dialogresult = popup.ShowDialog();
+            //if (dialogresult == DialogResult.Yes)
+            //{
+            if (check() == false)
+            {
+                StudentRegistrationWarning popup = new StudentRegistrationWarning();
+                DialogResult dialogresult = popup.ShowDialog();
+                if (dialogresult == DialogResult.OK)
+                {
+                    popup.Close();
+                }
+                popup.Dispose();
+                this.Close();
+            }
+            else if (check() == true)
+            {
+                RemoveStudentRegistration popup2 = new RemoveStudentRegistration();
+                DialogResult dialogresult2 = popup2.ShowDialog();
+                if (dialogresult2 == DialogResult.No)
+                {
+                    popup2.Close();
+                    this.Close();
+                }
+                else
+                {
                     int index = mockStudentList.FindIndex(s => s.StudentID == nuid);
                     mockStudentList.RemoveAt(index);
+                }
+            }
                   //  popup.Dispose();
                // }
                 //else
@@ -111,6 +134,17 @@ namespace StudentRegistration
             }
             Student student = new Student(nuid, firstName, lastName, dept, enrollType);
             mockStudentList.Remove(student);
+        }
+        private Boolean check()
+        {
+            if ((string.IsNullOrEmpty(firstText.Text)) || (string.IsNullOrWhiteSpace(firstText.Text)) || (string.IsNullOrEmpty(lastText.Text)) || (string.IsNullOrWhiteSpace(lastText.Text)) || (string.IsNullOrEmpty(studentText.Text)) || (string.IsNullOrWhiteSpace(studentText.Text)))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

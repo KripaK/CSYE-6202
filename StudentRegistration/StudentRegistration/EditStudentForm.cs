@@ -30,7 +30,7 @@ namespace StudentRegistration
             lastName = lastText.Text;
             nuid = studentText.Text;
             dept = comboBoxDepartment.SelectedItem.ToString();
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
+            if (check() == false)
             {
                 StudentRegistrationWarning popup = new StudentRegistrationWarning();
                 DialogResult dialogresult = popup.ShowDialog();
@@ -39,12 +39,23 @@ namespace StudentRegistration
                     popup.Close();
                 }
                 popup.Dispose();
+                this.Close();
             }
-             
-            else
+            else if (check() == true)
             {
-                mockStudentList.Find(p => p.StudentID == nuid).FirstName = firstName;
-                mockStudentList.Find(p => p.StudentID == nuid).LastName = lastName;
+                RemoveStudentRegistration popup2 = new RemoveStudentRegistration();
+                DialogResult dialogresult2 = popup2.ShowDialog();
+                if (dialogresult2 == DialogResult.No)
+                {
+                    popup2.Close();
+                    this.Close();
+                }
+                else
+                {
+
+                    mockStudentList.Find(p => p.StudentID == nuid).FirstName = firstName;
+                    mockStudentList.Find(p => p.StudentID == nuid).LastName = lastName;
+                }
             }
             this.Close();
         }
@@ -89,6 +100,17 @@ namespace StudentRegistration
         private void EditStudentForm_Load(object sender, EventArgs e)
         {
 
+        }
+        private Boolean check()
+        {
+            if ((string.IsNullOrEmpty(firstText.Text)) || (string.IsNullOrWhiteSpace(firstText.Text)) || (string.IsNullOrEmpty(lastText.Text)) || (string.IsNullOrWhiteSpace(lastText.Text)) || (string.IsNullOrEmpty(studentText.Text)) || (string.IsNullOrWhiteSpace(studentText.Text)))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

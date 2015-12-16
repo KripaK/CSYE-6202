@@ -57,27 +57,55 @@ namespace StudentRegistration
         {
             string text = textBox.Text;
             string pass = passwordBox.Password;
-            // MainWindow obj = new MainWindow();
+            //Boolean check;
+            int count = 0;
+             MainWindow obj = new MainWindow();
             try { 
             StudentRegistrationForm form = new StudentRegistrationForm(mockStudentList);
-            
-                if (string.IsNullOrEmpty(text) || string.IsNullOrWhiteSpace(text))
+
+                if (check() == false)
                 {
                     // obj.Show();
-                    MessageBox.Show("Invalid username or password");
+                    MessageBox.Show("Empty field/s");
                 }
                 else if (string.Compare(text, "demouser") == 0 && string.Compare(pass, "demouser") == 0)
                 {
                     form.Show();
                 }
+                else if (string.Compare(text, "demouser") != 0 && string.Compare(pass, "demouser") != 0)
+                {
+                    count = count + 1;
+                     if (count > 2)
+                    {
+                        MessageBox.Show("Entered wrong username and password three times");
+                        obj.Close();
+
+                    }
+                    MessageBox.Show("Invalid username or password");
+                    textBox.Clear();
+                    passwordBox.Clear();
+                }
+               
                 else
                 {
-                    form.Show();
+                    obj.Close();
                 }
             }
             catch
             {
                 MessageBox.Show("Exception");
+
+            }
+        }
+        private Boolean check ()
+        {
+            if((string.IsNullOrEmpty(textBox.Text)) || string.IsNullOrWhiteSpace(textBox.Text))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
             }
         }
     }

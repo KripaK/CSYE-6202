@@ -34,10 +34,34 @@ namespace StudentRegistration
 
         private void button1_Click(object sender, EventArgs e)
         {
-            loadData();
-            StudentRegistrationForm form = new StudentRegistrationForm(mockStudentList);
-            form.Show();
-            this.Close();
+            if (check() == false)
+            {
+                StudentRegistrationWarning popup = new StudentRegistrationWarning();
+                DialogResult dialogresult = popup.ShowDialog();
+                if (dialogresult == DialogResult.OK)
+                {
+                    popup.Close();
+                }
+                popup.Dispose();
+                this.Close();
+            }
+            else if (check() == true)
+            {
+                RemoveStudentRegistration popup2 = new RemoveStudentRegistration();
+                DialogResult dialogresult2 = popup2.ShowDialog();
+                if (dialogresult2 == DialogResult.No)
+                {
+                    popup2.Close();
+                    this.Close();
+                }
+                else
+                {
+                    loadData();
+                    StudentRegistrationForm form = new StudentRegistrationForm(mockStudentList);
+                    form.Show();
+                    this.Close();
+                }
+            }
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -69,9 +93,9 @@ namespace StudentRegistration
 
         private void loadData()
         {
-            firstName = "bags";
-            lastName = "hamsa";
-            nuid = "111-233-545";
+            firstName = firstText.Text; ;
+            lastName = lastText.Text;
+            nuid = studentText.Text;
             //if(string.IsNullOrEmpty(firstName) || string.IsNullOrWhiteSpace(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrWhiteSpace(lastName) || string.IsNullOrEmpty(nuid) || string.IsNullOrWhiteSpace(nuid))
             //{
             //    StudentRegistrationWarning popup = new StudentRegistrationWarning();
@@ -97,7 +121,17 @@ namespace StudentRegistration
 
         }
 
-
+        private Boolean check()
+        {
+            if ((string.IsNullOrEmpty(firstText.Text)) || (string.IsNullOrWhiteSpace(firstText.Text)) || (string.IsNullOrEmpty(lastText.Text)) || (string.IsNullOrWhiteSpace(lastText.Text)) || (string.IsNullOrEmpty(studentText.Text)) || (string.IsNullOrWhiteSpace(studentText.Text)))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
         private void NewStudentForm_Load(object sender, EventArgs e)
         {
 
